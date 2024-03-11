@@ -30,6 +30,9 @@
                      <FlowPane.margin>
                         <Insets left="10.0" />
                      </FlowPane.margin>
+                     <tooltip>
+                        <Tooltip text="Introduzca su nombre" />
+                     </tooltip>
                   </TextField>
                </children>
             </FlowPane>
@@ -118,7 +121,7 @@
             </FlowPane>
             <FlowPane alignment="CENTER" prefHeight="81.0" prefWidth="392.0">
                <children>
-                  <Button fx:id="buttonGuardar" mnemonicParsing="false" onAction="#guardarCliente" text="Button" />
+                  <Button fx:id="buttonGuardar" mnemonicParsing="false" onAction="#guardarCliente" text="Guardar" />
                   <Button fx:id="btnDescargar" mnemonicParsing="false" onAction="#descargarInforme" text="Descargar">
                      <FlowPane.margin>
                         <Insets left="20.0" />
